@@ -17,16 +17,16 @@ namespace ProjetoCarro.classes.Tanqq
 
         public void Abastecer(int quantidade)
         {
-            if (this.capacidade <= capacidade)
-                this.quantidadePresente = quantidade;
+            if ((this.quantidadePresente + quantidade) <= this.capacidade)
+                this.quantidadePresente += quantidade;
             else
                 this.quantidadePresente = capacidade;
         }
         public int UsarCombustivel(int quantidade)
         {
-            if(quantidade < quantidadePresente)
+            if(quantidade <= quantidadePresente)
                 quantidadePresente -= quantidade;
-            return ;
+            return quantidadePresente;
         }
         public int GetCombustivelPresente()
         {

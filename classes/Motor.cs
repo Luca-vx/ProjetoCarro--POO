@@ -6,44 +6,13 @@ using ProjetoCarro.classes.Carr;
 
 namespace ProjetoCarro.classes.Mott
 {
-    public abstract class Motor
+    public interface IMotor
     {
-        private bool ligado { get; set; }
-        private int aceleracao { get; set; }
-        public Motor()
-        {
-            this.ligado = false;
-            this.aceleracao = 0;
-        }
-        public void Ligar()
-        {
-            if(!IsLigado())            
-                this.ligado = true;   
-            else
-                Console.WriteLine("Motor já esta Ligado");
-        }
-        public void Desligar()
-        {
-            if(IsLigado())
-                this.ligado = false;
-            else
-                Console.WriteLine("Motor já esta Desligado");
-            
-        }
-        public bool IsLigado()
-        {
-            return ligado;
-        }
-        public void SetAceleracao(int aceleracao)
-        {
-            this.aceleracao = aceleracao;
-        }
-        public int GetAceleracao()
-        {
-            return aceleracao;
-        }
-        //fiquei em duvida nessa abaixo
-        public virtual void Acelerar(Carro c, int quantCombustivel)
-        {}
+        public void Ligar();                
+        public void Desligar();                                        
+        public bool IsLigado();                           
+        public void SetAceleracao(int aceleracao);                            
+        public int GetAceleracao();
+        public void Acelerar(Carro c, int quantCombustivel);    
     }
 }

@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using ProjetoCarro.classes.MotFlxx;
 using ProjetoCarro.classes.Mott;
 using ProjetoCarro.classes.Tanqq;
 
@@ -12,10 +13,11 @@ namespace ProjetoCarro.classes.Carr
         private string modelo { get; set; }
         private string cor { get; set; }
         private int velocidade { get; set; }
-        private Motor motor { get; set; }
+        private MotorDiesel motor { get; set; }
+        private MotorFlex motor2 { get; set; }
         private Tanque tanque { get; set; }
 
-        public Carro(string modelo, string cor, Motor motor, Tanque tanque)
+        public Carro(string modelo, string cor, MotorDiesel motor, Tanque tanque)
         {
             this.modelo = modelo;
             this.cor = cor;
@@ -23,9 +25,17 @@ namespace ProjetoCarro.classes.Carr
             this.motor = motor;
             this.tanque = tanque;
         }
+        public Carro(string modelo, string cor, MotorFlex motor, Tanque tanque)
+        {
+            this.modelo = modelo;
+            this.cor = cor;
+            this.velocidade = 0;
+            this.motor2 = motor;
+            this.tanque = tanque;
+        }
         public void Ligar()
         {
-            motor.Ligar();
+            motor.Ligar();            
         }
         public void Desligar()
         {
@@ -35,8 +45,15 @@ namespace ProjetoCarro.classes.Carr
         }
         public void Acelerar(int quantidadeCombustivel)
         {
-            if (quantidadeCombustivel < tanque.GetCombustivelPresente())
-            {                
+            var resto = tanque.UsarCombustivel(quantidadeCombustivel);
+            if (resto == 0)   
+            {
+                Console.WriteLine("Carro sem gasolina, Vai se desligar");
+                Desligar();            
+            }
+            else
+            {
+                Console.WriteLine("\nCarro vai acelerrar");
                 motor.Acelerar(this,quantidadeCombustivel);
             }
         }

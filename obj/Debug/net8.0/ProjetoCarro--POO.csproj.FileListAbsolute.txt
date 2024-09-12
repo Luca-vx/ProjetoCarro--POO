@@ -1,0 +1,15 @@
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\obj\Debug\net8.0\ProjetoCarro--POO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\obj\Debug\net8.0\ProjetoCarro--POO.AssemblyInfoInputs.cache
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\obj\Debug\net8.0\ProjetoCarro--POO.AssemblyInfo.cs
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\obj\Debug\net8.0\ProjetoCarro--POO.csproj.CoreCompileInputs.cache
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\obj\Debug\net8.0\ProjetoCarro--POO.sourcelink.json
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\bin\Debug\net8.0\ProjetoCarro--POO.exe
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\bin\Debug\net8.0\ProjetoCarro--POO.deps.json
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\bin\Debug\net8.0\ProjetoCarro--POO.runtimeconfig.json
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\bin\Debug\net8.0\ProjetoCarro--POO.dll
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\bin\Debug\net8.0\ProjetoCarro--POO.pdb
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\obj\Debug\net8.0\ProjetoCarro--POO.dll
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\obj\Debug\net8.0\refint\ProjetoCarro--POO.dll
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\obj\Debug\net8.0\ProjetoCarro--POO.pdb
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\obj\Debug\net8.0\ProjetoCarro--POO.genruntimeconfig.cache
+C:\Users\Lucas\Downloads\LUCAS\programação\aprendendo c#\Patrick POO\Introdução a orientação a objetos\ProjetoPOO (Carro)\ProjetoCarro--POO\obj\Debug\net8.0\ref\ProjetoCarro--POO.dll
